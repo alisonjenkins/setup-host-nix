@@ -31,7 +31,7 @@ jobs:
 | --- | --- | --- |
 | `max-jobs` | `1` | Concurrent derivations. `max-jobs * cores` bounds compiler procs. |
 | `cores` | `4` | Cores per job. |
-| `extra-substituters` | nixcache.org + nix-community + garnix | Space-separated. |
+| `extra-substituters` | nixcache.org + nix-community | Space-separated. |
 | `extra-trusted-public-keys` | matching keys | Space-separated. |
 
 ## Requirements
