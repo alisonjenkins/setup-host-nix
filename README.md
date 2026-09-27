@@ -20,7 +20,7 @@ jobs:
     if: ${{ github.event.pull_request.head.repo.fork != true }}
     steps:
       - uses: actions/checkout@v4
-      - uses: alisonjenkins/setup-host-nix@v1
+      - uses: alisonjenkins/setup-host-nix@v1.0.1
       - run: nix flake check --no-build
       - run: nix develop --command cargo test --workspace
 ```
